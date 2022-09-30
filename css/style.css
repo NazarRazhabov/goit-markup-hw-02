@@ -1,40 +1,40 @@
-.shadow{
+.shadow:root{
     display: none;
-    color: #FFFFFF;
+    --main-color: #212121;
 }
 
-.section-head{
+.section-head:root{
     list-style: none;
-    color: #FFFFFF;
+    --main-color: #212121;
 }
 
-.style{
+.style:root{
     display: none;
-    color: #FFFFFF;
+    --main-color: #212121;
 }
 
-li{
+li:root{
     list-style-type: none;
-    color: #FFFFFF;
+    --main-color: #212121;
 }
 
 
 
-.logo{
+.logo:root{
     
     text-decoration: none;
     list-style-type: none;
 padding: 4,6;
 
-font-family: 'Raleway',sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1,1;
 /* identical to box height */
 
 letter-spacing: 0.03em;
-color: #212121;
+--main-color: #212121;
 
 
 
@@ -44,7 +44,7 @@ color: #212121;
     color: #2196F3;
 }
 
-.Studio:current{
+.Studio:current:root{
     
     text-decoration: none;
     list-style-type: none;
@@ -61,7 +61,7 @@ background-color: #2196F3;
 
 
 letter-spacing: 0.02em;
-color: #212121;
+--main-color: #212121;
 font-family: 'Roboto', sans-serif;
 }
 
@@ -77,10 +77,11 @@ font-family: 'Roboto', sans-serif;
     
   }
   
-  .Studio_title{
+  .Studio_title:root{
     
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    --main-color: #212121;
     
     
     
@@ -99,7 +100,6 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
 font-family: 'Roboto', sans-serif;
@@ -684,7 +684,6 @@ padding: 1,03;
 padding: 7,6;
 
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -733,7 +732,7 @@ background: #2F303A;
 padding: 4,6;
 
 
-font-family: 'Raleway',sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -772,36 +771,42 @@ li{
     font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-decoration: 0;
+  color: #212121;
 }
 
 .studio-portfolio{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-decoration: 0;
+  color: #212121;
 }
 
-.Pprtfolio-portfolio{
+.portfolio-portfolio{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-decoration: 0;
+  color: #212121;
 }
 
 .contacts-portfolio{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-decoration: 0;
+  color: #212121;
 }
 
 .mail-portfolio{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-decoration: 0;
+  color: #212121;
 }
 
 .telefon-portfolio{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-decoration: 0;
+  color: #212121;
 }
 
 
@@ -809,14 +814,14 @@ li{
     
 padding: 2,8;
 
-background-color: #2196F3;
+color: #212121;
 
 
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 14px;
 letter-spacing: 0.02em;
 
 color: #212121;
@@ -837,7 +842,6 @@ text-decoration: 0;
   .studio-portfolio_title{
     
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
     bottom: 15px ;
     
     
@@ -850,11 +854,11 @@ padding: 4,5;
 background-color: #2196F3;
 
 
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 14px;
 letter-spacing: 0.02em;
 
 color: #212121;
@@ -867,7 +871,7 @@ text-decoration: 0;
     transition-duration: 900ms;
     box-shadow: 15px black;
     color: #2196F3;
-    text-align: center;
+    
     font-size: 14px;
     
   }
