@@ -1,21 +1,82 @@
 .shadow:root{
     display: none;
-    --main-color: #212121;
+
+    --main-color: #FFFF;
+
+    display: none;
+    opacity: 0px;
+    overflow: hidden;
 }
 
 .section-head:root{
     list-style: none;
-    --main-color: #212121;
+
+    --main-color: #FFFF;
+
+    display: none;
+    opacity: 0px;
+    overflow: hidden;
 }
 
 .style:root{
     display: none;
-    --main-color: #212121;
+    
+    --main-color: #FFFF;
+
+    display: none;
+    opacity: 0px;
+    overflow: hidden;
 }
 
 li:root{
     list-style-type: none;
-    --main-color: #212121;
+    --main-color: #FFFF;
+    display: none;
+    opacity: 0px;
+    overflow: hidden;
+}
+
+.logo{
+  font-family: 'Raleway', sans-serif;
+font-weight: 700;
+text-decoration: 0px;
+color: #212121;
+
+}
+
+.Studio{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-decoration: 0;
+color: #212121;
+}
+
+.Portfolio{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-decoration: 0;
+color: #212121;
+}
+
+.Contacts{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-decoration: 0;
+color: #212121;
+}
+
+.Mail{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-decoration: 0;
+color: #212121;
+}
+
+.Telefon{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-decoration: 0;
+color: #212121;
 }
 
 
